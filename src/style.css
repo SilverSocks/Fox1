@@ -1,3 +1,8 @@
+@font-face {
+    font-family: ZenMaruGothic_Regular;
+
+    src:url("../fonts/ZenMaruGothic-Regular.ttf");
+}
 .App{
     display: flex;
     flex-direction: column;
@@ -5,20 +10,11 @@
     align-items: center;
     justify-content: space-around;
     background-image: url("../imgs/5172214.jpg");
+    font-family: ZenMaruGothic_Regular;
 }
 .img{
     width: 200px;
-
 }
-@font-face {
-    font-family: ZenMaruGothic_Regular;
-
-    src:url("../fonts/ZenMaruGothic-Regular.ttf");
-}
-h1,h2,p{
-    font-family: ZenMaruGothic_Regular;
-}
-
 p {
     font-size: 18px;
     margin: 40px;
