@@ -10,6 +10,7 @@ span{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     background-image: url("../imgs/5172214.jpg");
     font-family: ZenMaruGothic_Regular;
 }
@@ -47,5 +48,11 @@ figcaption{
  }
 .second_info{
     font-size: 24px;
-    justify-items: left;
+    align-self: flex-start;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
