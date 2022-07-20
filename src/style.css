@@ -3,19 +3,49 @@
 
     src:url("../fonts/ZenMaruGothic-Regular.ttf");
 }
+span{
+    font-weight: bold;
+}
 .App{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
     background-image: url("../imgs/5172214.jpg");
     font-family: ZenMaruGothic_Regular;
 }
-.img{
-    width: 200px;
+h1,h2{
+    text-align: center;
+}
+h1{
+    font-size: 42px;
+}
+h2{
+    font-size: 38px;
 }
 p {
-    font-size: 18px;
+    border: 1px solid grey;
+    padding: 15px;
+    font-size: 24px;
     margin: 40px;
+}
+
+figcaption{
+    background-color: #ffe6cc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+.img{
+    width: 400px;
+
+}
+.card{
+     border: 1px solid grey;
+     border-radius: 15px;
+ }
+.second_info{
+    font-size: 24px;
+    justify-items: left;
 }
