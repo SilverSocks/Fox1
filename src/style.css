@@ -32,6 +32,8 @@ p {
 .card{
     border: 1px solid grey;
     border-radius: 15px;
+    float: top;
+    text-align: center;
 }
 figcaption{
     background-color: #ffe6cc;
@@ -43,7 +45,7 @@ figcaption{
 }
 .img{
     width: 200px;
-align-self: center;
+
     padding-left: auto;
     padding-right: auto;
 }
